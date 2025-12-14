@@ -5,7 +5,6 @@
 }
 
 body {
-    margin-top: 50px;
     text-align: center;
     box-sizing: border-box;
     min-height: 100vh;
@@ -19,15 +18,19 @@ button {
     padding: 12px 36px;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 50px 0;
     border-radius: 3px;
     cursor: pointer;
 }
 
 .container {
     width: 640px;
-    display: flex;
-    flex-wrap: wrap;
     outline: 5px solid red;
     margin: 0 auto;
+}
+
+.container > * {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
