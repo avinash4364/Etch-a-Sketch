@@ -3,11 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Etch a Sketch</title>
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
     <body>
+        <h1 class="heading">Etch-a-Sketch</h1>
         <div class="container"></div>
+        <p class="para">Select Color Effect</p>
+        <select name="color" id="color-scheme">
+            <option value="grey" selected>Shades of Grey</option>
+            <option value="rgb">rgb</option>
+            <option value="darken">darkening effect</option>
+        </select>
+        <button class="clear-btn">clear</button>
     </body>
 </html>
